@@ -45,8 +45,6 @@ drush en gazette_notice_feed
 # Grant access to authenticated users
 drush role:perm:add authenticated "access gazette notices"
 
-# Grant admin access to administrators
-drush role:perm:add administrator "administer gazette notices"
 ```
 
 ### 5. Clear Cache
