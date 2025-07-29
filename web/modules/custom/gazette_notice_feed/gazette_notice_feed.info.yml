@@ -1,0 +1,6 @@
+name: 'Gazette Notice Feed'
+type: module
+description: 'Displays notices from The Gazette REST API.'
+core_version_requirement: '^11'
+package: Custom
+dependencies: [] 

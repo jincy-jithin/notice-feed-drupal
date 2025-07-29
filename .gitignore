@@ -1,0 +1,55 @@
+# Drupal specific
+web/sites/*/files/
+web/sites/*/private/
+web/sites/*/settings.local.php
+web/sites/*/settings.php
+web/sites/*/services.yml
+
+# Composer
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+web/sites/*/logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if using frontend build tools)
+node_modules/
+npm-debug.log*
+
+# Drush cache
+drush/cache/

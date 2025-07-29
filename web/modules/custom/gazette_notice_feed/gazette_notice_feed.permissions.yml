@@ -1,0 +1,4 @@
+access gazette notices:
+  title: 'Access Gazette notices'
+  description: 'View notices from The Gazette API feed.'
+  restrict access: TRUE

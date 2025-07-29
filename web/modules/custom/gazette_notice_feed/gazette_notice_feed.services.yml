@@ -1,0 +1,4 @@
+services:
+  gazette_notice_feed.api:
+    class: 'Drupal\gazette_notice_feed\Service\GazetteNoticeFeedApi'
+    arguments: ['@http_client'] 
